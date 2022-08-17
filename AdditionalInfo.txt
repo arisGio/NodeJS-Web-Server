@@ -1,47 +1,53 @@
 *** How To Use GitHub with Visual Studio Code | GitHub VSCode showtime ***
-https://www.youtube.com/watch?v=aUhl3B6ZweQ&ab_channel=CoderDave
-1) Source Control Management
-source control > clone repo > clone from GitHub > login > choose repo > choose local folder
---> after doing changes
-source control > stage changes (+) > write message > commit code locally (checkmark)
---> if changes are ready for github too
-> ... > Push > code uploaded to github
+    https://www.youtube.com/watch?v=aUhl3B6ZweQ&ab_channel=CoderDave
+    1) Source Control Management
+    source control > clone repo > clone from GitHub > login > choose repo > choose local folder
+    --> after doing changes
+    source control > stage changes (+) > write message > commit code locally (checkmark)
+    --> if changes are ready for github too
+    > ... > Push > code uploaded to github
 
 *** Node.js ***
-- DOWNLOAD from nodejs.org the LTS (long term support) version
-- follow INSTALLation steps
-- https://stackoverflow.com/questions/19202007/making-sure-usr-local-bin-is-in-my-path-on-mac
-echo $PATH 
-/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arisgiotis/apache-maven-3.8.4/bin
+    - DOWNLOAD from nodejs.org the LTS (long term support) version
+    - follow INSTALLation steps
+    - https://stackoverflow.com/questions/19202007/making-sure-usr-local-bin-is-in-my-path-on-mac
+    echo $PATH 
+    /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/arisgiotis/apache-maven-3.8.4/bin
 
 - a way to run JavaScript outside of the browser
 - desktop apps, servers, anything that you want to do with JS
 
 *** GOAL ***
-- create a web server using node.js
+    - create a web server using node.js
 
 *** STEPS ***
-- create a server
-- require a module/library called http
-    used to start the server
-- tell it to start listening to a port
+    - create a server
+    - require a module/library called http
+        used to start the server
+    - tell it to start listening to a port
 
 *** RUN SERVER ***
-- terminal is open inside this project
-- @ terminal > node app.js
+    - terminal is open inside this project
+    - @ terminal > node app.js
 
 *** KILL SERVER ***
-- @ terminal > ctrl + C
+    - @ terminal > ctrl + C
 
 *** TERMINAL ***
-- if terminal is not shown in VS Code
-- > View > Terminal
+    - if terminal is not shown in VS Code
+    - > View > Terminal
 
-*** SERVER RESPONDING ***
-- implement function
-- return a response object
-    'Hello Node'
-- first RUN the SERVER
-- then OPEN BROWSER & GO to localhost:3000 where server is listening
-    see 'Hello Node'
-- killing the server & refreshing the page gives you 'The site cannot be reached'
+*** SERVER RESPONDING [PLAIN TEXT] ***
+    - implement function
+    - return a response object
+        'Hello Node'
+    - first RUN the SERVER
+    - then OPEN BROWSER & GO to localhost:3000 where server is listening
+        see 'Hello Node'
+    - killing the server & refreshing the page gives you 'The site cannot be reached'
+
+*** RENDER HTML ***
+    - render html from our web server rather than plain text
+    - create a HTML file, index.html, that we want to render
+    - generate outline of html document [boilerplate code]
+        @ index.html > ! + enter
