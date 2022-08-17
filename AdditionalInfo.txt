@@ -19,3 +19,20 @@ echo $PATH
 
 *** GOAL ***
 - create a web server using node.js
+
+*** STEPS ***
+- create a server
+- require a module/library called http
+    used to start the server
+- tell it to start listening to a port
+
+*** RUN SERVER ***
+- terminal is open inside this project
+- @ terminal > node app.js
+
+*** KILL SERVER ***
+- @ terminal > ctrl + C
+
+*** TERMINAL ***
+- if terminal is not shown in VS Code
+- > View > Terminal
