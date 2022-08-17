@@ -51,3 +51,14 @@
     - create a HTML file, index.html, that we want to render
     - generate outline of html document [boilerplate code]
         @ index.html > ! + enter
+
+*** SEND HTML ***
+    - tell browser that we are going to write html
+    - 200 is a good status code
+    - tell browser to parse it as html
+    - import library/module fs for file handling that we need
+    - 404 status --> means NOT FOUND
+    - data: all the information inside index.html
+
+*** RESTART SERVER ***
+    - everytime you make a change > restart the server
