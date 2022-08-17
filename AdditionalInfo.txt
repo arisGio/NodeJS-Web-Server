@@ -1,2 +1,5 @@
-- How to work with Visual Studio Code & GitHub?
---> Source Control > Clone repository > 
+How To Use GitHub with Visual Studio Code | GitHub VSCode showtime
+https://www.youtube.com/watch?v=aUhl3B6ZweQ&ab_channel=CoderDave
+1) Source Control > Clone repository > Clone from GitHub > login > choose repo > choose local folder
+--> after changing code > 
+> Source control > Stage Changes (+) > write message > Commit code locally (checkmark)
