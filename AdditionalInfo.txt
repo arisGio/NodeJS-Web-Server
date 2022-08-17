@@ -36,3 +36,12 @@ echo $PATH
 *** TERMINAL ***
 - if terminal is not shown in VS Code
 - > View > Terminal
+
+*** SERVER RESPONDING ***
+- implement function
+- return a response object
+    'Hello Node'
+- first RUN the SERVER
+- then OPEN BROWSER & GO to localhost:3000 where server is listening
+    see 'Hello Node'
+- killing the server & refreshing the page gives you 'The site cannot be reached'
