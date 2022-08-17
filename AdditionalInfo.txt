@@ -66,3 +66,8 @@
 *** GITHUB.DEV UTILIZATION ***
     - from GitHub > use github.dev to make changes online to a repo
     - like an online version of local VS Code Editor
+
+*** CHOOSE BRANCH ***
+    - when using github.dev to the bottom left of VS Code you can choose the BRANCH
+    - when working alone you should use only a main BRANCH
+    - no need to create a development BRANCH
