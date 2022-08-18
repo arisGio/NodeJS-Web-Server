@@ -6,3 +6,6 @@
     Vanilla JavaScript
     Node.js
     github.dev
+# goals
+    get to know how to use GitHub together with VS Code
+    introduction to node.js through a simple example
