@@ -9,3 +9,7 @@
 # goals
     get to know how to use GitHub together with VS Code
     introduction to node.js through a simple example
+# RUN SERVER
+    @ terminal > node app.js
+# KILL SERVER
+    @ terminal > ctrl + c
